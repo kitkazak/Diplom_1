@@ -7,12 +7,12 @@ import org.junit.runners.Parameterized;
 import praktikum.Bun;
 
 @RunWith(Parameterized.class)
-public class TestBun {
+public class TestBunGetters {
 
     private final String name;
     private final float price;
 
-    public TestBun(String name, float price) {
+    public TestBunGetters(String name, float price) {
         this.name = name;
         this.price = price;
     }
